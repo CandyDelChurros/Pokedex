@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    /* Tipos dos Pokemons */
+    --glass-color:green;
+    --poison-color:purple;
+    --fire-color:rgb(255, 94, 0);
+    --flying-color:rgb(149, 149, 255);
+    --water-color:blue;
+    --bug-color:rgb(10, 85, 10);
+    --normal-color:grey;
+    --eletric-color:yellow;
+    --ground-color:brown;
+    --fairy-color:pink;
+    --psycho-color: violet;
+    --fight-color:red;
+    --rock-color:rgb(255, 159, 103);
+    --steel-color:rgb(73, 73, 73);
+    --ice-color:rgb(0, 255, 234);
+    --ghost-color:rgb(59, 2, 59);
+}
+html {
+    font-size: 62,5%;
+    background:white;
+}
+
+.container {
+    height: 100vh;
+    width: 80vw;
+    border: .1rem solid black;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 50px 11rem 6rem;
+}
+
+header,nav,section,main{
+    border: .1rem solid green;
+}
+
+#header {
+    margin-top: 1rem;
+    border: .1rem solid red;
+}
