@@ -29,12 +29,11 @@ html {
 }
 
 .container {
+    display: grid;
+    grid-template-rows: 8rem 5rem 1fr 3rem;
     height: 100vh;
     width: 80vw;
-    border: .1rem solid black;
     margin: 0 auto;
-    display: grid;
-    grid-template-rows: 50px 11rem 6rem;
 }
 
 header,nav,section,main{
@@ -42,6 +41,29 @@ header,nav,section,main{
 }
 
 #header {
-    margin-top: 1rem;
-    border: .1rem solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    border: .1rem solid rgb(128, 105, 0);
+    width: 45rem;
+    height: 3rem;
+}
+
+.section {
+    display: grid;
+    border: .1rem solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.pokemon{
+    border: .1rem solid black;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 10rem;
 }
