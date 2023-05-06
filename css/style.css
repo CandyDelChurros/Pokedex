@@ -51,14 +51,16 @@ header,nav,section,main{
     height: 3rem;
 }
 
-.section {
+section {
     display: grid;
     border: .1rem solid black;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    align-items: center;
-    justify-items: center;
     
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 10rem));
+    /* grid-template-rows: repeat(autofit, 10rem);    */
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .pokemon{
