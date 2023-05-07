@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
     text-decoration: none;
 }
 :root{
     /* Tipos dos Pokemons */
-    --glass-color:green;
+    --glass-color:rgb(2, 211, 2);
+    --fontglass-color:rgb(158, 255, 158);
     --poison-color:purple;
+    --fontpoison-color: rgb(255, 79, 255);
     --fire-color:rgb(255, 94, 0);
+    --fontfire-color:rgb(252, 171, 124);
     --flying-color:rgb(149, 149, 255);
-    --water-color:blue;
+    --water-color:blue; 
     --bug-color:rgb(10, 85, 10);
     --normal-color:grey;
     --eletric-color:yellow;
@@ -54,18 +59,159 @@ header,nav,section,main{
 section {
     display: grid;
     border: .1rem solid black;
-    
     grid-template-columns: repeat(auto-fit, minmax(1rem, 10rem));
-    /* grid-template-rows: repeat(autofit, 10rem);    */
     justify-content: center;
     justify-items: center;
     align-items: center;
-    gap: 1rem;
+    gap: .9rem;
 }
 
 .pokemon{
     border: .1rem solid black;
     border-radius: 1rem;
+    margin-top: 1rem;
     width: 10rem;
     height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
 }
+
+section .pokemon:nth-child(1) .img {
+    display: flex;
+    width: 3.1rem;
+    height: 3.4rem;
+    background-image:url(../img/bulbasaur.gif);
+    background-size:3.1rem;
+    margin-top: .6rem;
+}
+section .pokemon:nth-child(2) .img{
+    width: 4.4rem;
+    height: 3.4621rem;
+    background-image:url(../img/ivysaur.gif);
+    background-size:4.4rem;
+    margin-top: .6rem;
+    margin-left: .6rem;
+}
+section .pokemon:nth-child(3) .img {
+    width: 4.38rem;
+    height: 3.2rem;
+    background-image: url(../img/venusaur.gif);
+    background-size:4.4rem;
+    margin-top: .6rem;
+    margin-left: .2rem;
+}
+section .pokemon:nth-child(4) .img {
+    width: 4.38rem;
+    height: 3.2rem;
+    background-image: url(../img/charmander.gif);
+    background-size:4.4rem;
+    margin-top: .6rem;
+    margin-left: .2rem;
+}
+section .pokemon:nth-child(5) .img {
+    width: 4.38rem;
+    height: 3.2rem;
+    background-image: url(../img/charmeleon.gif);
+    background-size:4.4rem;
+    margin-top: .6rem;
+    margin-left: .2rem;
+}
+section .pokemon:nth-child(6) .img {
+    width: 4.38rem;
+    height: 3.2rem;
+    background-image: url(../img/charizard.gif);
+    background-size:4.4rem;
+    margin-top: .6rem;
+    margin-left: .2rem;
+}
+section .pokemon:nth-child(7) .img {
+    width: 4.38rem;
+    height: 3.2rem;
+    background-image: url(../img/squirtle.gif);
+    background-size:4.4rem;
+    margin-top: .6rem;
+    margin-left: .2rem;
+}
+section .pokemon:nth-child(8) .img {
+    width: 4.38rem;
+    height: 3.2rem;
+    background-image: url(../img/wartortle.gif);
+    background-size:4.4rem;
+    margin-top: .6rem;
+    margin-left: .2rem;
+}
+section .pokemon:nth-child(9) .img {
+    width: 4.38rem;
+    height: 3.2rem;
+    background-image: url(../img/blastoise.gif);
+    background-size:4.4rem;
+    margin-top: .6rem;
+    margin-left: .2rem;
+}
+
+.num{
+    display: flex;
+    font-size: .65rem;
+    color: rgb(136, 135, 135);
+}
+
+.name {
+    display: flex;
+}
+
+.typer {
+    display: flex;
+    width: 6.5rem;
+    justify-content: space-around;
+}
+.Grass {
+    display: flex;
+    border: .1rem solid black;
+    margin-right: .2rem;
+    width: 3.2rem;
+    justify-content: center;
+    border-radius: .1rem;
+    color: var(--fontglass-color);
+    background-color: var(--glass-color);
+}
+.Poison {
+    display: flex;
+    border: .1rem solid black;
+    margin-left: .1rem;
+    width: 3.2rem;
+    justify-content: center;
+    border-radius: .1rem;
+    color: var(--fontpoison-color);
+    background-color: var(--poison-color);
+}
+.Fire {
+    display: flex;
+    border: .1rem solid black;
+    margin-left: .1rem;
+    width: 3.2rem;
+    justify-content: center;
+    border-radius: .1rem;
+    background-color: var(--fire-color);
+}
+.Flying {
+    display: flex;
+    border: .1rem solid black;
+    margin-left: .1rem;
+    width: 3.2rem;
+    justify-content: center;
+    border-radius: .1rem;
+    background-color: var(--flying-color);
+}
+.Water {
+    display: flex;
+    border: .1rem solid black;
+    margin-left: .1rem;
+    width: 3.2rem;
+    justify-content: center;
+    border-radius: .1rem;
+    background-color: var(--water-color);
+}
+
+
