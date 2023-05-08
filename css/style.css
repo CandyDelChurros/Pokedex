@@ -8,6 +8,7 @@
 }
 :root{
     /* Tipos dos Pokemons */
+    --shadow-color:#8f8f8f;
     --glass-color:rgb(2, 211, 2);
     --fontglass-color:rgb(158, 255, 158);
     --poison-color:purple;
@@ -15,7 +16,9 @@
     --fire-color:rgb(255, 94, 0);
     --fontfire-color:rgb(252, 171, 124);
     --flying-color:rgb(149, 149, 255);
+    --fontflying-color:rgb(182, 182, 255);
     --water-color:blue; 
+    --fontwater-color:rgb(87, 87, 255);
     --bug-color:rgb(10, 85, 10);
     --normal-color:grey;
     --eletric-color:yellow;
@@ -76,9 +79,10 @@ section {
     flex-direction: column;
     align-items: center;
     gap: .5rem;
+    box-shadow: .5rem .4rem .5rem var(--shadow-color);
 }
 
-section .pokemon:nth-child(1) .img {
+section .pokemon .img {
     display: flex;
     width: 3.1rem;
     height: 3.4rem;
@@ -91,7 +95,6 @@ section .pokemon:nth-child(2) .img{
     height: 3.4621rem;
     background-image:url(../img/ivysaur.gif);
     background-size:4.4rem;
-    margin-top: .6rem;
     margin-left: .6rem;
 }
 section .pokemon:nth-child(3) .img {
@@ -99,55 +102,51 @@ section .pokemon:nth-child(3) .img {
     height: 3.2rem;
     background-image: url(../img/venusaur.gif);
     background-size:4.4rem;
-    margin-top: .6rem;
     margin-left: .2rem;
 }
 section .pokemon:nth-child(4) .img {
-    width: 4.38rem;
-    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    width: 2.5rem;
+    height: 3rem;
     background-image: url(../img/charmander.gif);
-    background-size:4.4rem;
-    margin-top: .6rem;
+    background-size:2.5rem;
     margin-left: .2rem;
 }
 section .pokemon:nth-child(5) .img {
-    width: 4.38rem;
-    height: 3.2rem;
+    width: 2.53rem;
+    height: 2.94rem;
     background-image: url(../img/charmeleon.gif);
-    background-size:4.4rem;
-    margin-top: .6rem;
+    background-size:2.5rem;
     margin-left: .2rem;
 }
 section .pokemon:nth-child(6) .img {
-    width: 4.38rem;
-    height: 3.2rem;
+    width: 3rem;
+    height: 3.35rem;
     background-image: url(../img/charizard.gif);
-    background-size:4.4rem;
-    margin-top: .6rem;
+    background-size:3.2rem;
+    margin-top: .1rem;
     margin-left: .2rem;
 }
 section .pokemon:nth-child(7) .img {
-    width: 4.38rem;
+    width: 3.1rem;
     height: 3.2rem;
     background-image: url(../img/squirtle.gif);
-    background-size:4.4rem;
-    margin-top: .6rem;
+    background-size:3.1rem;
     margin-left: .2rem;
 }
 section .pokemon:nth-child(8) .img {
-    width: 4.38rem;
+    width: 2.438rem;
     height: 3.2rem;
     background-image: url(../img/wartortle.gif);
-    background-size:4.4rem;
-    margin-top: .6rem;
+    background-size:2.435rem;
     margin-left: .2rem;
 }
 section .pokemon:nth-child(9) .img {
-    width: 4.38rem;
-    height: 3.2rem;
+    width: 3.3rem;
+    height: 3.13rem;
     background-image: url(../img/blastoise.gif);
-    background-size:4.4rem;
-    margin-top: .6rem;
+    background-size:3.33rem;
     margin-left: .2rem;
 }
 
@@ -193,6 +192,7 @@ section .pokemon:nth-child(9) .img {
     width: 3.2rem;
     justify-content: center;
     border-radius: .1rem;
+    color: var(--fontfire-color);
     background-color: var(--fire-color);
 }
 .Flying {
@@ -202,6 +202,7 @@ section .pokemon:nth-child(9) .img {
     width: 3.2rem;
     justify-content: center;
     border-radius: .1rem;
+    color: var(--fontflying-color);
     background-color: var(--flying-color);
 }
 .Water {
@@ -211,6 +212,7 @@ section .pokemon:nth-child(9) .img {
     width: 3.2rem;
     justify-content: center;
     border-radius: .1rem;
+    color: var(--fontwater-color);
     background-color: var(--water-color);
 }
 
