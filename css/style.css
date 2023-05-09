@@ -88,6 +88,7 @@ section .pokemon .img {
     height: 3.4rem;
     background-image:url(../img/bulbasaur.gif);
     background-size:3.1rem;
+    background-repeat: no-repeat;
     margin-top: .6rem;
 }
 section .pokemon:nth-child(2) .img{
