@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"
-    >
+    <link rel="stylesheet" href="css/style.css">
     <title>Pokedex</title>
 </head>
 <body>
@@ -13,13 +12,46 @@
         <header id="header">
             <div class="header">
                 <div class="pokedex">
-                    <div class="pokebola"></div>
                     <h1>Pokedex</h1>
+                    <h3>Qual Pokemon você quer capturar hoje ?</h3>
                 </div>
             </div>
         </header>
         <nav id="nav">
-            <div class="nav">Nv</div>
+            <div class="nav">
+                <div class="barS">
+                    <div class="pesquisa"><input type="text" placeholder="Digite o nome do pokemon"></div>
+                    <div class="icon"></div>
+                </div>
+                <div class="barT">
+                    <div class="tipos">
+                        <select name="select">
+                            <option value="fire">Fire</option>
+                            <option value="water">Water</option>
+                            <option value="flying">Flying</option>
+                            <option value="poison">Poison</option>
+                            <option value="bug">Bug</option>
+                            <option value="normal">Normal</option>
+                            <option value="eletric">Eletric</option>
+                            <option value="glass">Glass</option>
+                            <option value="ground">Ground</option>
+                            <option value="fairy">Fairy</option>
+                            <option value="psycho">Psycho</option>
+                            <option value="fight">Fight</option>
+                            <option value="rock">Rock</option>
+                            <option value="steel">Steel</option>
+                            <option value="ice">Ice</option>
+                            <option value="ghost">Ghost</option>
+                            <option value="dragon">Dragon</option>
+                        </select>
+                        <select name="evolução">
+                            <option value="base">Base</option>
+                            <option value="second">Second</option>
+                            <option value="three">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </nav>
         <section>
                 <div class="pokemon">
@@ -306,7 +338,7 @@
                     <div class="name"><h5>Nidoking</h5></div>
                     <div class="typer">
                     <div class="Poison"><h5>Poison</h5></div>
-                    <div class="Poison"><h5>Ground</h5></div>
+                    <div class="Ground"><h5>Ground</h5></div>
                     </div>
                 </div>
                 <div class="pokemon">
@@ -319,7 +351,7 @@
                 </div>
                 <div class="pokemon">
                     <div class="img"></div>
-                    <div class="num"><h3>N°36/h3></div>
+                    <div class="num"><h3>N°36</h3></div>
                     <div class="name"><h5>Clefable</h5></div>
                     <div class="typer">
                     <div class="Fairy"><h5>Fairy</h5></div>
@@ -448,20 +480,856 @@
                     <div class="Ground"><h5>Ground</h5></div>
                     </div>
                 </div>
-                <!-- <div class="pokemon">
+                <div class="pokemon">
                     <div class="img"></div>
-                    <div class="num"><h3>N°50</h3></div>
-                    <div class="name"><h5>Diglett</h5></div>
+                    <div class="num"><h3>N°51</h3></div>
+                    <div class="name"><h5>Dugtrio</h5></div>
                     <div class="typer">
                     <div class="Ground"><h5>Ground</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°52</h3></div>
+                    <div class="name"><h5>Meowth</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°53</h3></div>
+                    <div class="name"><h5>Persian</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°54</h3></div>
+                    <div class="name"><h5>Psyduck</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°55</h3></div>
+                    <div class="name"><h5>Golduck</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°56</h3></div>
+                    <div class="name"><h5>Mankey</h5></div>
+                    <div class="typer">
+                    <div class="fight"><h5>Fight</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°57</h3></div>
+                    <div class="name"><h5>Primeape</h5></div>
+                    <div class="typer">
+                    <div class="fight"><h5>Fight</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°58</h3></div>
+                    <div class="name"><h5>Growlithe</h5></div>
+                    <div class="typer">
+                    <div class="Fire"><h5>fire</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°59</h3></div>
+                    <div class="name"><h5>Arcanine</h5></div>
+                    <div class="typer">
+                    <div class="Fire"><h5>Fire</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°60</h3></div>
+                    <div class="name"><h5>Poliwag</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°61</h3></div>
+                    <div class="name"><h5>Poliwhirl</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°62</h3></div>
+                    <div class="name"><h5>Poliwrath</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="fight"><h5>Fight</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°63</h3></div>
+                    <div class="name"><h5>Abra</h5></div>
+                    <div class="typer">
+                    <div class="psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°64</h3></div>
+                    <div class="name"><h5>Kadabra</h5></div>
+                    <div class="typer">
+                    <div class="psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°65</h3></div>
+                    <div class="name"><h5>Alakazam</h5></div>
+                    <div class="typer">
+                    <div class="psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°66</h3></div>
+                    <div class="name"><h5>Machop</h5></div>
+                    <div class="typer">
+                    <div class="fight"><h5>Fight</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°67</h3></div>
+                    <div class="name"><h5>Machoke</h5></div>
+                    <div class="typer">
+                    <div class="fight"><h5>Fight</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°68</h3></div>
+                    <div class="name"><h5>Machamp</h5></div>
+                    <div class="typer">
+                    <div class="fight"><h5>Fight</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°69</h3></div>
+                    <div class="name"><h5>Bellsprout</h5></div>
+                    <div class="typer">
+                    <div class="Grass"><h5>Grass</h5></div>
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°70</h3></div>
+                    <div class="name"><h5>Weepinbell</h5></div>
+                    <div class="typer">
+                    <div class="Grass"><h5>Grass</h5></div>
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°71</h3></div>
+                    <div class="name"><h5>Victreebel</h5></div>
+                    <div class="typer">
+                    <div class="Grass"><h5>Grass</h5></div>
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°72</h3></div>
+                    <div class="name"><h5>Tentacool</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°73</h3></div>
+                    <div class="name"><h5>Tentacruel</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°74</h3></div>
+                    <div class="name"><h5>Geodude</h5></div>
+                    <div class="typer">
+                    <div class="Rock"><h5>Rock</h5></div>
+                    <div class="Ground"><h5>Ground</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°75</h3></div>
+                    <div class="name"><h5>Graveler</h5></div>
+                    <div class="typer">
+                    <div class="Rock"><h5>Rock</h5></div>
+                    <div class="Ground"><h5>Ground</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°76</h3></div>
+                    <div class="name"><h5>Golem</h5></div>
+                    <div class="typer">
+                    <div class="Rock"><h5>Rock</h5></div>
+                    <div class="Ground"><h5>Ground</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°77</h3></div>
+                    <div class="name"><h5>Ponyta</h5></div>
+                    <div class="typer">
+                    <div class="Fire"><h5>Fire</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°78</h3></div>
+                    <div class="name"><h5>Rapidash</h5></div>
+                    <div class="typer">
+                    <div class="Fire"><h5>Fire</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°79</h3></div>
+                    <div class="name"><h5>Slowpoke</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°80</h3></div>
+                    <div class="name"><h5>Slowbro</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°81</h3></div>
+                    <div class="name"><h5>Magnemite</h5></div>
+                    <div class="typer">
+                    <div class="Eletric"><h5>Eletric</h5></div>
+                    <div class="Steel"><h5>Steel</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°82</h3></div>
+                    <div class="name"><h5>Magneton</h5></div>
+                    <div class="typer">
+                    <div class="Eletric"><h5>Eletric</h5></div>
+                    <div class="Steel"><h5>Steel</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°83</h3></div>
+                    <div class="name"><h5>Farfetch'd</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°84</h3></div>
+                    <div class="name"><h5>Doduo</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°85</h3></div>
+                    <div class="name"><h5>Dodrio</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°86</h3></div>
+                    <div class="name"><h5>Seel</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°87</h3></div>
+                    <div class="name"><h5>Dewgong</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Ice"><h5>Ice</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°88</h3></div>
+                    <div class="name"><h5>Grimer</h5></div>
+                    <div class="typer">
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°89</h3></div>
+                    <div class="name"><h5>Muk</h5></div>
+                    <div class="typer">
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°90</h3></div>
+                    <div class="name"><h5>Shellder</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°91</h3></div>
+                    <div class="name"><h5>Cloyster</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Ice"><h5>Ice</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°92</h3></div>
+                    <div class="name"><h5>Gastly</h5></div>
+                    <div class="typer">
+                    <div class="Ghost"><h5>Ghost</h5></div>
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°93</h3></div>
+                    <div class="name"><h5>Haunter</h5></div>
+                    <div class="typer">
+                    <div class="Ghost"><h5>Ghost</h5></div>
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°94</h3></div>
+                    <div class="name"><h5>Gengar</h5></div>
+                    <div class="typer">
+                    <div class="Ghost"><h5>Ghost</h5></div>
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°95</h3></div>
+                    <div class="name"><h5>Onix</h5></div>
+                    <div class="typer">
+                    <div class="Rock"><h5>Rock</h5></div>
+                    <div class="Ground"><h5>Ground</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°96</h3></div>
+                    <div class="name"><h5>Drowzee</h5></div>
+                    <div class="typer">
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°97</h3></div>
+                    <div class="name"><h5>Hypno</h5></div>
+                    <div class="typer">
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°98</h3></div>
+                    <div class="name"><h5>Krabby</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°99</h3></div>
+                    <div class="name"><h5>Kingler</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°100</h3></div>
+                    <div class="name"><h5>Voltorb</h5></div>
+                    <div class="typer">
+                    <div class="Eletric"><h5>Eletric</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°101</h3></div>
+                    <div class="name"><h5>Electrode</h5></div>
+                    <div class="typer">
+                    <div class="Eletric"><h5>Eletric</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°102</h3></div>
+                    <div class="name"><h5>Exeggcute</h5></div>
+                    <div class="typer">
+                    <div class="Grass"><h5>Grass</h5></div>
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°103</h3></div>
+                    <div class="name"><h5>Exeggutor</h5></div>
+                    <div class="typer">
+                    <div class="Grass"><h5>Grass</h5></div>
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°104</h3></div>
+                    <div class="name"><h5>Cubone</h5></div>
+                    <div class="typer">
+                    <div class="Ground"><h5>Ground</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°105</h3></div>
+                    <div class="name"><h5>Marowak</h5></div>
+                    <div class="typer">
+                    <div class="Ground"><h5>Ground</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°106</h3></div>
+                    <div class="name"><h5>Hitmonlee</h5></div>
+                    <div class="typer">
+                    <div class="Fight"><h5>Fight</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°107</h3></div>
+                    <div class="name"><h5>Hitmonchan</h5></div>
+                    <div class="typer">
+                    <div class="Fight"><h5>Fight</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°108</h3></div>
+                    <div class="name"><h5>Lickitung</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°109</h3></div>
+                    <div class="name"><h5>Koffling</h5></div>
+                    <div class="typer">
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°110</h3></div>
+                    <div class="name"><h5>Weezing</h5></div>
+                    <div class="typer">
+                    <div class="Poison"><h5>Poison</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°111</h3></div>
+                    <div class="name"><h5>Rhyhorn</h5></div>
+                    <div class="typer">
+                    <div class="Ground"><h5>Ground</h5></div>
+                    <div class="Rock"><h5>Rock</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°112</h3></div>
+                    <div class="name"><h5>Rhydon</h5></div>
+                    <div class="typer">
+                    <div class="Ground"><h5>Ground</h5></div>
+                    <div class="Rock"><h5>Rock</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°113</h3></div>
+                    <div class="name"><h5>Chansey</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°114</h3></div>
+                    <div class="name"><h5>Tangela</h5></div>
+                    <div class="typer">
+                    <div class="Grass"><h5>Grass</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°115</h3></div>
+                    <div class="name"><h5>Kangaskhan</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°116</h3></div>
+                    <div class="name"><h5>Horsea</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°117</h3></div>
+                    <div class="name"><h5>Seadra</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°118</h3></div>
+                    <div class="name"><h5>Goldeen</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°119</h3></div>
+                    <div class="name"><h5>Seaking</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°120</h3></div>
+                    <div class="name"><h5>Staryu</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°121</h3></div>
+                    <div class="name"><h5>Starmie</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°122</h3></div>
+                    <div class="name"><h5>Mr. Mime</h5></div>
+                    <div class="typer">
+                    <div class="Psycho"><h5>Psycho</h5></div>
                     <div class="Fairy"><h5>Fairy</h5></div>
                     </div>
-                </div> -->
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°123</h3></div>
+                    <div class="name"><h5>Scyther</h5></div>
+                    <div class="typer">
+                    <div class="Bug"><h5>Bug</h5></div>
+                    <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°124</h3></div>
+                    <div class="name"><h5>Jynx</h5></div>
+                    <div class="typer">
+                    <div class="Ice"><h5>Ice</h5></div>
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°125</h3></div>
+                    <div class="name"><h5>Electabuzz</h5></div>
+                    <div class="typer">
+                    <div class="Eletric"><h5>Eletric</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°126</h3></div>
+                    <div class="name"><h5>Magmar</h5></div>
+                    <div class="typer">
+                    <div class="Fire"><h5>Fire</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°127</h3></div>
+                    <div class="name"><h5>Pinsir</h5></div>
+                    <div class="typer">
+                    <div class="Bug"><h5>Byg</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°128</h3></div>
+                    <div class="name"><h5>Tauros</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°129</h3></div>
+                    <div class="name"><h5>Magikarp</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°130</h3></div>
+                    <div class="name"><h5>Gyarados</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°131</h3></div>
+                    <div class="name"><h5>Lapras</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Ice"><h5>Ice</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°132</h3></div>
+                    <div class="name"><h5>Ditto</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°133</h3></div>
+                    <div class="name"><h5>Eevee</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°134</h3></div>
+                    <div class="name"><h5>Vaporeon</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°135</h3></div>
+                    <div class="name"><h5>Jolteon</h5></div>
+                    <div class="typer">
+                    <div class="Eletric"><h5>Eletric</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°136</h3></div>
+                    <div class="name"><h5>Flareon</h5></div>
+                    <div class="typer">
+                    <div class="Fire"><h5>Fire</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°137</h3></div>
+                    <div class="name"><h5>Porygon</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°138</h3></div>
+                    <div class="name"><h5>Omanyte</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Rock"><h5>Rock</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°139</h3></div>
+                    <div class="name"><h5>Omastar</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Rock"><h5>Rock</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°140</h3></div>
+                    <div class="name"><h5>Kabuto</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Rock"><h5>Rock</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°141</h3></div>
+                    <div class="name"><h5>Kabutops</h5></div>
+                    <div class="typer">
+                    <div class="Water"><h5>Water</h5></div>
+                    <div class="Rock"><h5>Rock</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°142</h3></div>
+                    <div class="name"><h5>Aerodactyl</h5></div>
+                    <div class="typer">
+                    <div class="Flying"><h5>Flying/h5></div>
+                    <div class="Rock"><h5>Rock</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°143</h3></div>
+                    <div class="name"><h5>Snorlax</h5></div>
+                    <div class="typer">
+                    <div class="Normal"><h5>Normal</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°144</h3></div>
+                    <div class="name"><h5>Articuno</h5></div>
+                    <div class="typer">
+                    <div class="Ice"><h5>Ice</h5></div>
+                    <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°145</h3></div>
+                    <div class="name"><h5>Zapdos</h5></div>
+                    <div class="typer">
+                    <div class="Eletric"><h5>Eletric</h5></div>
+                    <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°146</h3></div>
+                    <div class="name"><h5>Moltres</h5></div>
+                    <div class="typer">
+                    <div class="Fire"><h5>Fire</h5></div>
+                     <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°147</h3></div>
+                    <div class="name"><h5>Dratini</h5></div>
+                    <div class="typer">
+                    <div class="Dragon"><h5>Dragon</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°148</h3></div>
+                    <div class="name"><h5>Dragonair</h5></div>
+                    <div class="typer">
+                    <div class="Dragon"><h5>Dragon</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°149</h3></div>
+                    <div class="name"><h5>Dragonite</h5></div>
+                    <div class="typer">
+                    <div class="Dragon"><h5>Dragon</h5></div>
+                    <div class="Flying"><h5>Flying</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°150</h3></div>
+                    <div class="name"><h5>Mewtwo</h5></div>
+                    <div class="typer">
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
+                <div class="pokemon">
+                    <div class="img"></div>
+                    <div class="num"><h3>N°151</h3></div>
+                    <div class="name"><h5>Mew</h5></div>
+                    <div class="typer">
+                    <div class="Psycho"><h5>Psycho</h5></div>
+                    </div>
+                </div>
         </section>
-        <main>
-            <div class="main">main
-            </div>
-        </main>
     </div>
 </body>
 
