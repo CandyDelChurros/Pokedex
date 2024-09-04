@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "nodemon script.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0"
+  }
+}
