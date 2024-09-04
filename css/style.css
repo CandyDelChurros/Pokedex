@@ -30,27 +30,15 @@
 }
 html {
     font-size: 62,5%;
-<<<<<<< HEAD
     background-repeat:no-repeat;
-=======
-    background-image: url(../img/icon2.png);
-    background-repeat:no-repeat;
-    background-position-x: -14rem;
-    background-position-y: -10rem;
-    position: scroll;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
 }
 
 .container {
     display: grid;
-<<<<<<< HEAD
     grid-template-rows: 18rem 1fr;
     grid-template-areas: 
     'header'
     'main';
-=======
-    grid-template-rows: 8rem 5rem 1fr 3rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     height: 100vh;
     width: 80vw;
     margin: 0 auto;
@@ -58,7 +46,6 @@ html {
 
 header {
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
     align-items: center ;
     grid-area: header;
@@ -67,9 +54,6 @@ header {
     height: 18rem;
     background: #ffffffe0;
     border-radius: .5rem;
-=======
-    justify-content: center;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
 }
 .header {
     border-bottom-left-radius: 3rem;
@@ -86,10 +70,7 @@ header {
     justify-content: center;
     flex-direction: row;
     box-shadow: .4rem .3rem .2rem .2rem var(--shadow-color);
-<<<<<<< HEAD
     position: relative;
-=======
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
 }
 
 .header h1,h3 {
@@ -107,7 +88,6 @@ header {
     margin-top: 2.5rem;
     margin-left: 1.5rem;
 }
-<<<<<<< HEAD
 
 .header .add {
     position: absolute;
@@ -137,16 +117,11 @@ header {
     top:.9rem;
     transition: .2s;
 }
-=======
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
 .nav {
     margin-top: .2rem;
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     gap: 2rem;
-=======
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
 }
 
 .nav .barS {
@@ -207,11 +182,8 @@ section {
     justify-items: center;
     align-items: center;
     gap: .9rem;
-<<<<<<< HEAD
     grid-area:main;
 
-=======
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
 }
 
 .pokemon{
@@ -298,11 +270,7 @@ section .pokemon:nth-child(9) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/blastoise.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(10) .img {
@@ -323,11 +291,7 @@ section .pokemon:nth-child(12) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/butterfree.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(13) .img {
@@ -369,11 +333,7 @@ section .pokemon:nth-child(18) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/pidgeot.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(19) .img {
@@ -387,11 +347,7 @@ section .pokemon:nth-child(20) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/raticate.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(21) .img {
@@ -405,44 +361,28 @@ section .pokemon:nth-child(22) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/fearow.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(23) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/ekans.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(24) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/arbok.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(25) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/pikachu-libre.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(26) .img {
@@ -470,11 +410,7 @@ section .pokemon:nth-child(29) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/nidoran_f.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(30) .img {
@@ -502,55 +438,35 @@ section .pokemon:nth-child(33) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/nidorino.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(34) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/nidoking.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(35) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/clefairy.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(36) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/clefable.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(37) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/vulpix.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(38) .img {
@@ -571,88 +487,56 @@ section .pokemon:nth-child(40) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/wigglytuff.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(41) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/zubat.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(42) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/golbat.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(43) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/oddish.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(44) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/gloom.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(45) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/vileplume.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(46) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/paras.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(47) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/parasect.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(48) .img {
@@ -666,1133 +550,721 @@ section .pokemon:nth-child(49) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/venomoth.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(50) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/diglett.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(51) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/dugtrio.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(52) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/meowth.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(53) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/persian.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(54) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/psyduck.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(55) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/golduck.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(56) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/mankey.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(57) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/primeape.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(58) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/growlithe.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(59) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/arcanine.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(60) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/poliwag.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(61) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/poliwhirl.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(62) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/poliwrath.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(63) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/abra.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(64) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/kadabra.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(65) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/alakazam.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(66) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/machop.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(67) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/machoke.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(68) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/machamp.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(69) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/bellsprout.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(70) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/weepinbell.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(71) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/victreebel.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(72) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/tentacool.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(73) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/tentacool.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(74) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/geodude.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(75) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/graveler.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(76) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/golem.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(77) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/ponyta.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(78) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/rapidash.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(79) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/slowpoke.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(80) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/slowbro.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(81) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/magnemite.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(82) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/magneton.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(83) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/farfetchd.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(84) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/doduo.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(85) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/dodrio.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(86) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/seel.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(87) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/dewgong.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(88) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/grimer.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(89) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/muk.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(90) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/shellder.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(91) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/cloyster.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(92) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/gastly.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(93) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/haunter.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(94) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/gengar.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(95) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/onix.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(96) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/drowzee.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(97) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/hypno.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(98) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/krabby.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(99) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/kingler.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(100) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/voltorb.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(101) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/electrode.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(102) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/exeggcute.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(103) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/exeggutor.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(104) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/cubone.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(105) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/marowak.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(106) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/hitmonlee.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(107) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/hitmonchan.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(108) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/lickitung.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(109) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/koffing.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(110) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/weezing.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(111) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/rhyhorn.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(112) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/rhydon.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(113) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/chansey.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(114) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/tangela.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(115) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/kangaskhan.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(116) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/horsea.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(117) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/seadra.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(118) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/goldeen.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(119) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/seaking.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(120) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/staryu.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(121) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/starmie.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(122) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/mr.mime.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(123) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/scyther.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(124) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/jynx.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(125) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/electabuzz.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(126) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/magmar.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(127) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/pinsir.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(128) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/tauros.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(129) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/magikarp.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(130) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/gyarados.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(131) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/lapras.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(132) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/ditto.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(133) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/eevee.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(134) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/vaporeon.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(135) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/jolteon.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(136) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/flareon.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(137) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/porygon.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(138) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/omanyte.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(139) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/omastar.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(140) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/kabuto.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(141) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/kabutops.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(142) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/aerodactyl.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(143) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/snorlax.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(144) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/articuno.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(145) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/zapdos.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(146) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/moltres.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(147) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/dratini.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(148) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/dragonair.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(149) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/dragonite.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(150) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/mewtwo.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 section .pokemon:nth-child(151) .img {
     width: 3.3rem;
     height: 3.13rem;
     background-image: url(../img/mew.gif);
-<<<<<<< HEAD
     background-size:contain;
-=======
-    background-size:3.33rem;
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
     margin-left: .2rem;
 }
 
@@ -1911,7 +1383,6 @@ section .pokemon:nth-child(151) .img {
     color: var(--white-color);
     background-color: var(--fairy-color);
 }
-<<<<<<< HEAD
 .psycho,.Psycho {
     display: flex;
     border: .1rem solid black;
@@ -1959,8 +1430,4 @@ section .pokemon:nth-child(151) .img {
 .dragon, .Dragon {
     background: var(--dragon-color);
 }
-=======
-
-
->>>>>>> 6a6bdab9d987b93bce293fae80720f1ed6326875
 
