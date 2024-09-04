@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;700&family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+:root{
+    /* Tipos dos Pokemons */
+    --shadow-color:#8f8f8f;
+    --white-color:#ffff; 
+    --glass-color:#7AC74C;
+    --poison-color:#A33EA1;
+    --fire-color:#EE8130;
+    --flying-color:#A98FF3;
+    --water-color:#6390F0; 
+    --bug-color:#A6B91A;
+    --normal-color:#A8A77A;
+    --eletric-color:#F7D02C;
+    --ground-color:#E2BF65;
+    --fairy-color:#D685AD;
+    --psycho-color: #F95587;
+    --fight-color:#C22E28;
+    --rock-color:#B6A136;
+    --steel-color:#B7B7CE;
+    --ice-color:#96D9D6;
+    --ghost-color:#735797;
+    --dragon-color:#6F35FC;
+}
+html {
+    font-size: 62,5%;
+    background: url(../img/icon2.png);
+    background-repeat:repeat;
+    background-position-x: -5rem;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    z-index: 10;
+    background: #ffff;
+}
+
+.container button {
+    width: 20rem;
+    height: 5rem;
+    background: url(../img/icon2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left:2rem;
+    font-size: 1.02rem;
+    border-radius: .5rem;
+}
+
+.container button:hover{
+    color: var(--fight-color);
+    border-color: var(--fight-color);
+}
+.container span {
+    margin-bottom: 5rem;
+    font-family: 'Press Start 2P';
+}
+
+.container span:nth-child(1){
+    font-size: 3rem;
+}
+
+.container .img {
+    border: .1rem solid black;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1rem;
+}
+
+.container label {
+    font-size: 'Poppins';
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.container input {
+    width: 55rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    border-radius: .5rem;
+
+}
+
+.container .type {
+    display: flex;
+    width: 55rem;
+    height: 13rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container .type button{
+    width: 10rem;
+    height: 2rem;
+    margin-right: .5rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+.container span:nth-child(7){
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.container .exit button{
+    height: 2rem;
+    width: 10rem;
+    border-color: var(--fight-color);
+    color: var(--fight-color);
+    margin-top: .5rem;
+}
+
+.container .exit{
+    align-self: flex-start;
+    margin-left: 2rem;
+}
