@@ -38,7 +38,6 @@ html {
 
 .container {
     display: flex;
-    height: 100vh;
     width: 80vw;
     margin: 0 auto;
     align-items: center;
@@ -65,7 +64,6 @@ html {
     border-color: var(--fight-color);
 }
 .container span {
-    margin-bottom: 5rem;
     font-family: 'Press Start 2P';
 }
 
@@ -86,12 +84,37 @@ html {
     font-weight: bold;
 }
 
+.container input[type="file"] {
+    display: none;
+}
+
+.container label[for="img"] {
+    border: .1rem solid black;
+    border-radius: .5rem;
+    display: block;
+    width: 15rem;
+    height: 2rem;
+    margin-right: .5rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    background: url(../img/icon2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1rem;
+}
+
+.container label[for="img"]:hover {
+    color: var(--fight-color);
+    border-color: var(--fight-color);
+}
+
 .container input {
     width: 55rem;
     text-align: center;
     margin-bottom: 3rem;
     border-radius: .5rem;
-
 }
 
 .container .type {

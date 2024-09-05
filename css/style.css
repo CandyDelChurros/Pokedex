@@ -90,6 +90,9 @@ header {
 }
 
 .header .add {
+    display: flex;
+    justify-content: space-between;
+    width: 38rem;
     position: absolute;
     right: 1rem;
     top: 1rem;
