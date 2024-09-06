@@ -34,7 +34,7 @@ app.use(express.static('public'));
 // Habilite CORS para todas as origens
 app.use(cors());
 
-// Rota para adicionar Pokémon
+// Rota para adicionar Pokemon
 app.post('/add-pokemon', upload.single('img'), async (req, res) => {
     const { nome, tipos } = req.body;
     const imgPath = req.file.path;
