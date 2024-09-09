@@ -60,3 +60,11 @@ app.post('/add-pokemon', upload.single('img'), async (req, res) => {
 app.listen(3000, () => {
     console.log('Server on port 3000');
 });
+app.get('/get-pokemons', async (req, res) => {
+    try {
+        const result = await entrada.query('SELECT id, nome, imagem, tipos FROM pokemons');
+        res.json(result.rows);
+    } catch (error) {
+        res.status(500).send('Erro ao buscar pokémons');
+    }
+});

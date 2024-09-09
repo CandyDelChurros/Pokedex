@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;700&family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+:root{
+    /* Tipos dos Pokemons */
+    --shadow-color:#8f8f8f;
+    --white-color:#ffff; 
+    --glass-color:#7AC74C;
+    --poison-color:#A33EA1;
+    --fire-color:#EE8130;
+    --flying-color:#A98FF3;
+    --water-color:#6390F0; 
+    --bug-color:#A6B91A;
+    --normal-color:#A8A77A;
+    --eletric-color:#F7D02C;
+    --ground-color:#E2BF65;
+    --fairy-color:#D685AD;
+    --psycho-color: #F95587;
+    --fight-color:#C22E28;
+    --rock-color:#B6A136;
+    --steel-color:#B7B7CE;
+    --ice-color:#96D9D6;
+    --ghost-color:#735797;
+    --dragon-color:#6F35FC;
+}
+html {
+    font-size: 62,5%;
+    background-repeat:no-repeat;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 18rem 1fr;
+    grid-template-areas: 
+    'header'
+    'main';
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    grid-area: header;
+    position: fixed;
+    width: 80.7%;
+    height: 18rem;
+    background: #ffffffe0;
+    border-radius: .5rem;
+}
+.header {
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    width: 40rem;
+    height: 9rem;
+    background-color: tomato;
+    background-image: url(../img/pokeball-icon-transparent-28.jpg);
+    background-size: 10rem;
+    background-position-x: 32rem;
+    background-position-y: 2rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: .4rem .3rem .2rem .2rem var(--shadow-color);
+    position: relative;
+}
+
+.header h1,h3 {
+    font-family: 'Press Start 2P';
+}
+
+.header h1{
+    margin-top: 1.8rem;
+    margin-left: 10rem;
+}
+.header h3{
+    color: var(--white-color);
+    font-size: .8rem;
+    text-shadow: 5rem;
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.header .add {
+    display: flex;
+    justify-content: space-between;
+    width: 38rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.header .add button {
+    font-family: 'Press Start 2P';
+    font-size: .5rem;
+    height: 2rem;
+    width: 10rem;
+    background: tomato;
+    color: #fff;
+    border: none;
+    border-bottom: .123rem solid black;
+    border-right: .123rem solid black;
+    cursor:pointer;
+}
+
+.header .add button:hover {
+    background: #fff;
+    color: #000;
+    transition: 1s;
+}
+.header .add:hover {
+    top:.9rem;
+    transition: .2s;
+}
+.nav {
+    margin-top: .2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav .barS {
+    display: flex;
+    width: 25rem;
+    height: 2.5rem;
+    margin-top: 2.5rem;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    box-shadow: .4rem .3rem .2rem var(--shadow-color);
+    justify-content: space-between;
+}
+.nav .barS .pesquisa input {
+    padding-left: 1.5rem;
+    width: 22rem;
+    height: 2.5rem;
+    outline: none;
+    border:none;
+}
+
+.nav .barS .icon {
+    display: flex;
+    border-radius: .5rem;
+    width: 3rem;
+    background-image: url(../img/icon.png);
+    background-color: tomato;
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.nav .barT {
+    margin-top: 2rem;
+    width: 32.3rem;
+    height: 3.2rem;
+    display: flex;
+}
+.nav .barT .tipos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav .barT .tipos select{
+    height: 2rem;
+    width: 10rem;
+    outline: none;
+    border: none;
+    border-radius: .4rem;
+    box-shadow: .4rem .3rem .2rem var(--shadow-color);
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 10rem));
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: .9rem;
+    grid-area:main;
+}
+
+.pokemon{
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    background-image:url(../img/pokeball-icon-transparent-28.jpg);
+    background-size: 8rem;
+    background-position-x:5.6rem;
+    background-position-y:4.1rem;
+    background-repeat: no-repeat;
+    background-color: var(--white-color);
+    box-shadow: .5rem .4rem .5rem var(--shadow-color);
+}
+
+section .pokemon .img {
+    display: flex;
+    width: 3.1rem;
+    height: 3.4rem;
+    margin-top: .6rem;
+}
+.num{
+    display: flex;
+    font-size: .65rem;
+    color: rgb(136, 135, 135);
+}
+
+.name {
+    display: flex;
+}
+
+.typer {
+    display: flex;
+    width: 9.5rem;
+    justify-content: space-around;
+}
+.Grass {
+    background-color: var(--glass-color);
+}
+.Poison {
+    background-color: var(--poison-color);
+}
+.Fire {
+    background-color: var(--fire-color);
+}
+.Flying {
+    background-color: var(--flying-color);
+}
+.Water {
+    background-color: var(--water-color);
+}
+.Bug {
+    background-color: var(--bug-color);
+}
+.Normal {
+    background-color: var(--normal-color);
+}
+.Eletric {
+    background-color: var(--eletric-color);
+}
+.Ground {
+    background-color: var(--ground-color);
+}
+.Fairy {
+    background-color: var(--fairy-color);
+}
+.Psycho {
+    background-color: var(--psycho-color);
+}
+
+.Fight {
+    background-color: var(--fight-color);
+}
+
+.Steel {
+    background-color: var(--steel-color);
+}
+
+.Ice, .Ghost, .Rock, .Dragon, .Fight, .Psycho, .Fairy, .Ground, .Eletric,.Normal,.Bug,.Water,.Flying,.Fire,.Poison, .Grass, .Steel{
+    display: flex;
+    border: .09rem solid black;
+    margin: .2rem;
+    width: 4rem;
+    justify-content: center;
+    border-radius: .1rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.Ice {
+    background: var(--ice-color);
+}
+
+.Ghost {
+    background: var(--ghost-color);
+}
+
+.Rock {
+    background: var(--rock-color);
+}
+
+.Dragon {
+    background: var(--dragon-color);
+}
